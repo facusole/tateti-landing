@@ -1,0 +1,5 @@
+-Source control 
+-Branches 
+-elegir rama  que fue modificada (develop)
+-fetchear apretando el c2do icono
+-sync changes o en los tres puntitos y pull
