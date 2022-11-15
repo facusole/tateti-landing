@@ -1,0 +1,11 @@
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu {
+    height: 24px;
+    width: 24px;
+    border: 1px solid black;
+  }

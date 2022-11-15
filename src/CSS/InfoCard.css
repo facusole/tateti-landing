@@ -1,0 +1,17 @@
+.circulitos {
+    border: 1px solid black;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+  }
+  
+  .pepe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
