@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* ---------------------------------------------------------------- variables ----------------------------------------------------------------- */
 :root {
   --clr-gris-claro: hsl(0, 0%, 95%);
@@ -89,6 +91,8 @@ select {
   }
 }
 
-.circulitos {
-  background-color: var(--clr-violeta);
+body {
+  font-family: 'Poppins', sans-serif;
 }
+
+

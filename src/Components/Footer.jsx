@@ -16,12 +16,12 @@ export default function Footer() {
       <div>
         <img />
 
-        <a href="mailto: contacto@grupotateti.com ">contacto@grupotateti.com</a>
+        <a href="mailto: contacto@grupotateti.com" rel="noreferrer">contacto@grupotateti.com</a>
       </div>
       <div>
         <img />
 
-        <a href="https://www.instagram.com/grupo_tateti/" target="_blank">
+        <a href="https://www.instagram.com/grupo_tateti/" target="_blank" rel="noreferrer">
           @grupo_tateti
         </a>
       </div>
@@ -29,7 +29,7 @@ export default function Footer() {
         <img />
         <a
           href="https://www.linkedin.com/company/grupo-tateti/about/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           Linkedin
         </a>
@@ -37,21 +37,21 @@ export default function Footer() {
       <div>
         <img />
 
-        <a href="https://wa.me/5491127454923" target="_blank">
+        <a href="https://wa.me/5491127454923" target="_blank" rel="noreferrer">
           Whatsapp{" "}
         </a>
       </div>
       <div>
         <img />
 
-        <a href="https://twitter.com/grupotateti?lang=es" target="_blank"></a>
+        <a href="https://twitter.com/grupotateti?lang=es" target="_blank" rel="noreferrer"></a>
       </div>
       <div>
         <img />
 
         <a
           href="https://www.youtube.com/channel/UCR7CLwgzXrW-uMoXxuPDzZQ"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           YouTube
         </a>
