@@ -1,6 +1,5 @@
 .boton {
-    background-color: violet;
-    border-radius: 4px;
-    color: white;
-  }
-  
+  background-color: var(--clr-lila);
+  border-radius: 4px;
+  color: white;
+}

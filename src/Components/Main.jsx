@@ -3,6 +3,9 @@ import { Link, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar";
 import Titulo from "./Titulo";
 import InfoCard from "./InfoCard";
+import Actividades from "./Actividades";
+import Cta from "./Cta";
+import Footer from "./Footer";
 
 function Main() {
   const Home = () => <h1>Home</h1>;
@@ -35,7 +38,13 @@ function Main() {
 
       <main>
         <Titulo />
-        <InfoCard />
+        <InfoCard number={4} title={"Escuelas"} />
+        <InfoCard number={12} title={"Viajes"} />
+        <InfoCard number={3} title={"Colaboradores"} />
+        <InfoCard number={"+30"} title={"Encomiendas"} />
+        <Actividades />
+        <Cta />
+        <Footer />
       </main>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -46,4 +55,3 @@ function Main() {
 }
 
 export default Main;
-
