@@ -1,15 +1,20 @@
 import React from "react";
 import Button from "./Button";
+import '../CSS/Titulo.css'
 
 export default function Titulo() {
   return (
-    <div>
-      <h1>Transformamos la realidad social de escuelas rurales</h1>
-      <p>
-        Buscamos acortar la desigualdad de las infancias en las comunidades
-        rurales en nuestro país.
-      </p>
-      <Button />
+    <div className="container-title">
+      <div className="main-title">
+        <h1>Transformamos la realidad social de escuelas rurales</h1>
+        <p>
+          Buscamos acortar la desigualdad de las infancias en las comunidades
+          rurales en nuestro país.
+        </p>
+      </div>
+      <div className="button">
+        <Button />
+      </div>
     </div>
   );
 }

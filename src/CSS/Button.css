@@ -1,5 +1,14 @@
 .boton {
+<<<<<<< HEAD
   background-color: var(--clr-lila);
   border-radius: 4px;
   color: white;
 }
+=======
+    background-color: var(--clr-gris);
+    border-radius: .75rem;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+>>>>>>> cddbd4a90d413f7380e184f4e5febe4a75649b05
