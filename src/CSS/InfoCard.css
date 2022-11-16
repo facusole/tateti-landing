@@ -5,7 +5,7 @@
   border: 1px solid var(--clr-gris-claro);
   border-radius: 1rem;
   padding: 4rem 1.5rem;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .infoCard {

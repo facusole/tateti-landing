@@ -1,0 +1,32 @@
+.icon-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.icon-container > *{
+    flex: 1;
+}
+
+.iconCard {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-inline: 1rem;
+    border: 1px solid var(--clr-gris-medio);
+    border-radius: 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--clr-gris-medio);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.icon-title {
+    font-weight: 500;
+    width: 12ch;
+    margin-top: 2.5rem;
+    margin-bottom: .5rem;
+}
