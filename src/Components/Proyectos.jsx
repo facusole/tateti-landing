@@ -4,7 +4,7 @@ import "../CSS/Proyectos.css";
 export default function Proyectos() {
   return (
     <div>
-      <title>Nuestras escuelas</title>
+      <h2>Nuestras escuelas</h2>
       <p>Proporcionamos condiciones que faciliten el acceso a la educación. </p>
 
       <h2>Escuela N° 806 Chaco</h2>
@@ -15,12 +15,12 @@ export default function Proyectos() {
       </p>
 
       <div>
-        <img />
+        {/* <img /> */}
         <p>Taller de ESI</p>
       </div>
 
       <div>
-        <img />
+        {/* <img /> */}
         <p>Filtro de agua </p>
       </div>
       <h2>Escuela N° Sta Fe</h2>
@@ -30,11 +30,11 @@ export default function Proyectos() {
         higiene menstrual.{" "}
       </p>
       <div>
-        <img />
+        {/* <img /> */}
         <p>Ciclo con Preservate</p>
       </div>
       <div>
-        <img />
+        {/* <img /> */}
         <p>Salud integral</p>
       </div>
     </div>

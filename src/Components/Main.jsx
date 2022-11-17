@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Titulo from "./Titulo";
 import InfoCard from "./InfoCard";
 import Actividades from "./Actividades";
+import Proyectos from './Proyectos'
 import Cta from "./Cta";
 import Footer from "./Footer";
 import Problematicas from "./Problemáticas";
@@ -24,6 +25,7 @@ function Main() {
         </div>
         <Problematicas />
         <Actividades />
+        <Proyectos />
         <Cta />
         <Footer />
       </main>

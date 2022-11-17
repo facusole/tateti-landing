@@ -1,0 +1,13 @@
+.container-actividades {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 8rem 1.75rem 0 1.75rem;
+}
+
+.container-cards-act {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+

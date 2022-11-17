@@ -14,9 +14,9 @@ export default function Problematicas() {
         infraestructura, acceso al agua potable y perspectiva de género.
       </p>
       <div className="icon-container">
-        <IconCard img={image} title='Agua potable' />
-        <IconCard img={image2} title='Infraestructura' />
-        <IconCard img={image3} title='Perspectiva de género' />
+        <div className="border"><IconCard img={image} title='Agua potable' /></div>
+        <div className="border"><IconCard img={image2} title='Infraestructura'  /></div>
+        <div className="border"><IconCard img={image3} title='Perspectiva de género' /></div>
       </div>
     </div>
   );
