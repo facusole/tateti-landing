@@ -20,8 +20,9 @@ function Main() {
         <div className="cards">
           <InfoCard number={4} title={"Escuelas"} />
           <InfoCard number={12} title={"Viajes"} />
-          <InfoCard number={3} title={"Colaboradores"} />
-          <InfoCard number={"+30"} title={"Encomiendas"} />
+          <InfoCard number={10} title={"Colaboradores"} />
+          <InfoCard number={"+30"} title={"Envios"} />
+          <InfoCard number={"+230"} title={"Encomiendas"} />
         </div>
         <Problematicas />
         <Actividades />

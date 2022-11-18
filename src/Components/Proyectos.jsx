@@ -23,7 +23,7 @@ export default function Proyectos() {
         {/* <img /> */}
         <p>Filtro de agua </p>
       </div>
-      <h2>Escuela N° Sta Fe</h2>
+      <h2>Escuela N° 6195 Santa Fe</h2>
       <p>
         En 2022 dictamos un ciclo de talleres de ESI junto a Preservate,
         abordando temáticas de vínculos saludables, estereotipos de género e
