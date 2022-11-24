@@ -1,11 +1,6 @@
-.container-footer {
-  padding-top: 8rem;
-}
-
 .footer-content {
   display: flex;
   margin-top: 1.25rem;
-  padding: 0 .25rem 1rem;
   flex-direction: column;
   max-width: 35ch;
   gap: 1rem;

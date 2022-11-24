@@ -1,6 +1,6 @@
 .container-cta {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-block: 6rem;
+    gap: 2rem;
+    text-align: center;
 }
