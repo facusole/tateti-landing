@@ -3,7 +3,7 @@ import "../CSS/Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="mg-inline">
       {/* <span>Areas de trabajo</span>
       <span>Escuelas</span>
       <span>Quiénes somos</span> 
