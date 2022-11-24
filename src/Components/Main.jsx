@@ -14,9 +14,9 @@ function Main() {
     <div className="App">
       <header>
         <Navbar />
+        <Titulo />
       </header>
       <main>
-        <Titulo />
         <div className="container-cards mg-inline">
           <InfoCard number={4} title={"Escuelas"} />
           <InfoCard number={12} title={"Viajes"} />
