@@ -1,0 +1,27 @@
+.footer {
+  padding: 8rem 1.75rem 0 1.75rem;
+  border-top: 1px solid black;
+}
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  margin: 1.75rem 2.25rem 0 1.75rem;
+  gap: 1rem;
+}
+
+.logo {
+  height: 24px;
+  width: 24px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a {
+  justify-content: center;
+  padding-left: 1.5rem;
+}
