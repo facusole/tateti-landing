@@ -7,7 +7,7 @@ export default function Actividades() {
   return (
     <div className="container-actividades">
 
-      <h2 className="titulo">Construimos un vínculo con <span className="enfasis">las comunidades</span> </h2>
+      <h2 className="section-title">Construimos un vínculo con <span className="enfasis">las comunidades</span> </h2>
       <div className="container-cards-act">
         <div className="card-actividades">
           <IconCard img={image} title='Envio de encomiendas' text='Contienen alimentos, elementos de higiene y salud, útiles escolares,
