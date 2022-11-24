@@ -17,18 +17,30 @@ function Main() {
         <Titulo />
       </header>
       <main>
-        <div className="container-cards mg-inline">
-          <InfoCard number={4} title={"Escuelas"} />
-          <InfoCard number={12} title={"Viajes"} />
-          <InfoCard number={10} title={"Colaboradores"} />
-          <InfoCard number={"+30"} title={"Envios"} />
-          <InfoCard number={"+230"} title={"Encomiendas"} />
-        </div>
-        <Problematicas />
-        <Actividades />
-        <Proyectos />
-        <Cta />
-        <Footer />
+        <section className="bg-color-dark">
+          <div className="container-cards mg-inline">
+            <InfoCard number={4} title={"Escuelas"} />
+            <InfoCard number={12} title={"Viajes"} />
+            <InfoCard number={10} title={"Colaboradores"} />
+            <InfoCard number={"+30"} title={"Envios"} />
+            <InfoCard number={"+230"} title={"Encomiendas"} />
+          </div>
+        </section>
+        <section className="bg-color-light">
+          <Problematicas />
+        </section>
+          <section className="bg-color-dark">
+            <Actividades />
+          </section>
+        <section className="bg-color-light">
+          <Proyectos />
+        </section>
+        <section className="bg-color-light">
+          <Cta />
+        </section>
+        <footer className="bg-color-dark">
+          <Footer />
+        </footer>
       </main>
 
     </div>

@@ -26,6 +26,7 @@
     border: 1px solid var(--clr-gris-medio);
     border-radius: .5rem;
     padding: .5rem;
+    background: white;
 }
 
 .icon-title {

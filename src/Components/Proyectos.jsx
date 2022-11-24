@@ -3,7 +3,7 @@ import "../CSS/Proyectos.css";
 
 export default function Proyectos() {
   return (
-    <div>
+    <div className="container-proyectos mg-inline">
       <h2>Nuestras escuelas</h2>
       <p>Proporcionamos condiciones que faciliten el acceso a la educación. </p>
 

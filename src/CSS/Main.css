@@ -116,8 +116,19 @@ body {
   flex-direction: column;
   align-items: center;
   font-weight: var(--fw-regular);
+  max-width: 30ch;
 }
 
 .enfasis {
   font-weight: var(--fw-bold);
+}
+
+.bg-color-dark {
+  background-color: var(--clr-gris-medio);
+  z-index: -1;
+}
+
+.bg-color-light {
+  background-color: var(--clr-gris-claro);
+  z-index: -1;
 }

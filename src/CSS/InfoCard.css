@@ -6,7 +6,8 @@
   border-radius: 1rem;
   padding: 4rem 1.5rem;
   overflow: scroll;
-  z-index: 10;
+  background-color: white;
+  z-index: 15;
 }
 
 .container-cards::-webkit-scrollbar {
