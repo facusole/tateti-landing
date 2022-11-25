@@ -17,7 +17,7 @@ function Main() {
       </header>
       <main>
         <Titulo />
-        <div className="cards">
+        <div className="container-cards mg-inline">
           <InfoCard number={4} title={"Escuelas"} />
           <InfoCard number={12} title={"Viajes"} />
           <InfoCard number={10} title={"Colaboradores"} />

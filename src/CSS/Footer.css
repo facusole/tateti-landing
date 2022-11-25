@@ -1,3 +1,8 @@
+.footer {
+  margin: 8rem 1.75rem 0 1.75rem;
+  border: 1px solid red;
+}
+
 .cuerpo {
   display: flex;
   flex-direction: column;

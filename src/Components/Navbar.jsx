@@ -4,9 +4,8 @@ import image from "../Assets/Logo.png";
 
 export default function Navbar() {
   return (
-    <div className="container">
+    <div className="container-navbar mg-inline">
       <img src={image} alt="Logo" />
-      <div className="menu"></div>
     </div>
   );
 }
