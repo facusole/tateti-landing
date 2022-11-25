@@ -14,41 +14,40 @@ export default function Proyectos() {
         con el objetivo de promover la salud.{" "}
       </p>
 
-        <div className="img-container1">
-          <img src="image.png" alt="imgTateti" className="imgTateti1" />
-          <div className="name-img1">
-            <img src="ButtonTilde.png" />
-            <p className="title-img">Taller de ESI</p>
-          </div>
+      <div className="img-container1">
+        <img src="image.png" alt="imgTateti" className="imgTateti1" />
+        <div className="name-img1">
+          <img src="ButtonTilde.png" />
+          <p className="title-img">Taller de ESI</p>
         </div>
+      </div>
 
-        <div className="img-container2">
-          <img src="image.png" alt="imgTateti" className="imgTateti2" />
-          <div className="name-img2">
-            <img src="ButtonTilde.png" />{" "}
-            <p className="title-img">Filtro de agua </p>
-          </div>
+      <div className="img-container2">
+        <img src="image.png" alt="imgTateti" className="imgTateti2" />
+        <div className="name-img2">
+          <img src="ButtonTilde.png" />{" "}
+          <p className="title-img">Filtro de agua </p>
         </div>
-        <h2>Escuela N° 6195 Santa Fe</h2>
-        <p>
-          En 2022 dictamos un ciclo de talleres de ESI junto a Preservate,
-          abordando temáticas de vínculos saludables, estereotipos de género e
-          higiene menstrual.{" "}
-        </p>
-        <div className="img-container1">
-          <img src="image.png" alt="imgTateti" className="imgTateti1" />
-          <div className="name-img1">
-            <img src="ButtonTilde.png" />{" "}
-            <p className="title-img">Ciclo con Preservate</p>
-          </div>
+      </div>
+      <h2>Escuela N° 6195 Santa Fe</h2>
+      <p>
+        En 2022 dictamos un ciclo de talleres de ESI junto a Preservate,
+        abordando temáticas de vínculos saludables, estereotipos de género e
+        higiene menstrual.{" "}
+      </p>
+      <div className="img-container1">
+        <img src="image.png" alt="imgTateti" className="imgTateti1" />
+        <div className="name-img1">
+          <img src="ButtonTilde.png" />{" "}
+          <p className="title-img">Ciclo con Preservate</p>
         </div>
+      </div>
 
-        <div className="img-container2">
-          <img src="image.png" alt="imgTateti" className="imgTateti2" />
-          <div className="name-img2">
-            <img src="ButtonTilde.png" />{" "}
-            <p className="title-img">Salud integral</p>
-          </div>
+      <div className="img-container2">
+        <img src="image.png" alt="imgTateti" className="imgTateti2" />
+        <div className="name-img2">
+          <img src="ButtonTilde.png" />{" "}
+          <p className="title-img">Salud integral</p>
         </div>
       </div>
     </div>
