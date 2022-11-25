@@ -1,11 +1,12 @@
 .container-cards {
   display: flex;
-  margin-top: 3.5rem;
   gap: 3rem;
   border: 1px solid var(--clr-gris-claro);
   border-radius: 1rem;
   padding: 4rem 1.5rem;
   overflow: scroll;
+  background-color: white;
+  z-index: 15;
 }
 
 .container-cards::-webkit-scrollbar {

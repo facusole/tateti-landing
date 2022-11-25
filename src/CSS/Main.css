@@ -15,6 +15,9 @@
   --clr-lila: hsl(281, 55%, 83%);
   --clr-amarillo-claro: hsl(51, 100%, 91%);
   --clr-amarillo: hsl(52, 88%, 78%);
+
+  --fw-regular: 400;
+  --fw-bold: 500;
 }
 
 /* ---------------------------------------------------------------- reset ----------------------------------------------------------------- */
@@ -59,6 +62,10 @@ a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Make images easier to work with */
 img,
 picture,
@@ -93,11 +100,16 @@ select {
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-weight: var(--fw-regular)
 }
 
 
 
 /* ---------------------------------------------------------------- utility ----------------------------------------------------------------- */
+
+.vertical-spacing {
+  padding-block: 3.5rem;
+}
 
 .mg-inline {
   margin-inline: 1.75rem;
@@ -107,9 +119,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-weight: 400;
+  font-weight: var(--fw-regular);
+  max-width: 30ch;
 }
 
 .enfasis {
-  font-weight: 500;
+  font-weight: var(--fw-bold);
+}
+
+.bg-color-dark {
+  background-color: var(--clr-gris-medio);
+  z-index: -1;
+}
+
+.bg-color-light {
+  background-color: var(--clr-gris-claro);
+  z-index: -1;
 }
