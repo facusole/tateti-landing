@@ -19,7 +19,7 @@ export default function Footer() {
         </p>
 
         <div className="redes">
-          <img src="ButtonMail.png" />
+          <img src="ButtonMail.png" alt=''/>
           <a
             href="mailto: contacto@grupotateti.com"
             rel="noreferrer"
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
 
         <div className="redes">
-          <img src="ButtonIG.png" />
+          <img src="ButtonIG.png" alt=''/>
           <a
             href="https://www.instagram.com/grupo_tateti/"
             target="_blank"
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="redes">
-          <img src="ButtonLinked.png" />
+          <img src="ButtonLinked.png" alt='' />
           <a
             href="https://www.linkedin.com/company/grupo-tateti/about/"
             target="_blank"
@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
 
         <div className="redes">
-          <img src="ButtonWsp.png" />
+          <img src="ButtonWsp.png" alt=''/>
           <a
             href="https://wa.me/5491127454923"
             target="_blank"
@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
 
         <div className="redes">
-          <img src="ButtonTwitter.png" />
+          <img src="ButtonTwitter.png" alt=''/>
           <a
             href="https://twitter.com/grupotateti?lang=es"
             target="_blank"
@@ -78,7 +78,7 @@ export default function Footer() {
         </div>
 
         <div className="redes">
-          <img src="ButtonYoutube.png" />
+          <img src="ButtonYoutube.png" alt=''/>
           <a
             href="https://www.youtube.com/channel/UCR7CLwgzXrW-uMoXxuPDzZQ"
             target="_blank"
