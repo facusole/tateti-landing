@@ -1,13 +1,36 @@
-.title-container {
+/* .title-container {
   display: flex;
   flex-direction: column;
   text-align: center;
   max-width: 30ch;
+} */
+
+.first-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.first-text > p {
+  margin-left: 2rem;
+  max-width: 30ch;
+}
+
+.text-proyectos {
+  padding: 50px 0px 50px 0px;
+}
+
+.text-proyectos > p {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  max-width: 27ch;
 }
 
 h2,
 p {
-  padding: 1rem 0px 1rem 0px;
+  padding: 0.5rem 0px 0.5rem 0px;
+  margin-right: 0.5rem;
 }
 
 .img-container1 {
@@ -24,20 +47,19 @@ p {
 }
 
 .imgTateti1 {
-  justify-self: end;
-  width: 15rem;
+  width: 80%;
   border-radius: 15px;
 }
 .imgTateti2 {
-  width: 15rem;
+  width: 80%;
   border-radius: 15px;
 }
 
 .name-img1 {
   display: flex;
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 89px;
+  left: 5%;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
   overflow: hidden;
@@ -46,8 +68,9 @@ p {
 .name-img2 {
   display: flex;
   position: absolute;
-  top: 30%;
-  right: 20%;
+  top: 89px;
+  right: 5%;
   background-color: rgb(255, 255, 255);
   border-radius: 20px;
+  overflow: hidden;
 }
