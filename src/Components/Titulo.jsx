@@ -4,7 +4,7 @@ import '../CSS/Titulo.css'
 
 export default function Titulo() {
   return (
-    <div className="container-title mg-inline">
+    <div className="container-title mg-inline vertical-spacing">
       <div className="main-title">
         <h1>Transformamos la realidad social de escuelas rurales</h1>
         <p>

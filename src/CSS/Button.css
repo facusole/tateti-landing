@@ -3,6 +3,16 @@
     border-radius: .75rem;
     padding: 1rem 2rem;
     color: white;
-    font-weight: 600;
+    font-weight: var(--fw-bold-600);
+  }
+
+  .button::before {
+    content: '';
+    border: solid 2px var(--clr-gris-medio);
+    height: 3.8rem;
+    width: 11rem;
+    position: absolute;
+    border-radius: .5rem;
+    rotate: -3deg;
   }
   
